@@ -169,3 +169,7 @@ main {
 .hidden {
   display: none;
 }
+
+.winner {
+  display: none;
+}
