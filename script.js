@@ -88,6 +88,7 @@ const newF = function () {
   player0El.classList.remove("player--active");
   player1El.classList.remove("player--active");
   player0El.classList.add("player--active");
+  document.querySelector(".player").classList.remove("player--winner");
   activePlayer = 0;
   // document.querySelector('.current-score').textContent = 7;
   playing = true;
