@@ -23,8 +23,6 @@ let scores = [0, 0];
 let playing = true;
 //};
 
-alert("this is a two player game");
-
 const switchPlayer = function () {
   currentScore = 0;
   document.querySelector(`#current--${activePlayer}`).textContent =
